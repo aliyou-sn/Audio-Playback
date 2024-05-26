@@ -1,0 +1,414 @@
+The target system is: Generic -  - 
+The host system is: Darwin - 20.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-gcc 
+Build flags: -mlongcalls;-Wno-frame-address;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Users/apple/Desktop/esp32-play-mp3-demo/.pio/build/esp32dev/bootloader/CMakeFiles/3.16.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-g++ 
+Build flags: -mlongcalls;-Wno-frame-address;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/apple/Desktop/esp32-play-mp3-demo/.pio/build/esp32dev/bootloader/CMakeFiles/3.16.4/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+xtensa-esp32-elf-gcc (crosstool-NG esp-12.2.0_20230208) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/apple/Desktop/esp32-play-mp3-demo/.pio/build/esp32dev/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/apple/.platformio/packages/tool-ninja/ninja cmTC_25c81 && [1/2] Building C object CMakeFiles/cmTC_25c81.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_25c81
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/apple/Desktop/esp32-play-mp3-demo/.pio/build/esp32dev/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/apple/.platformio/packages/tool-ninja/ninja cmTC_1bd48 && [1/2] Building C object CMakeFiles/cmTC_1bd48.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+COLLECT_GCC=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-gcc
+Target: xtensa-esp32-elf
+Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_apple-darwin12 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-12.2.0_20230208' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) 
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_1bd48.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_1bd48.dir/'
+ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/cc1 -quiet -v -iprefix /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/ /Users/apple/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1bd48.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -Wno-frame-address -version -o /var/folders/36/g0lqrq4974jbxjv90jfrmdt80000gn/T//ccAgvOAC.s
+GNU C17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (xtensa-esp32-elf)
+	compiled by GNU C version 8.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/include"
+ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/include-fixed"
+ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/sys-include"
+ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/include
+ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/include-fixed
+ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/sys-include
+ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include
+End of search list.
+GNU C17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (xtensa-esp32-elf)
+	compiled by GNU C version 8.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4dca3e277c35d48b1cfb1058cf67ac4a
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_1bd48.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_1bd48.dir/'
+ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_1bd48.dir/CMakeCCompilerABI.c.obj /var/folders/36/g0lqrq4974jbxjv90jfrmdt80000gn/T//ccAgvOAC.s
+COMPILER_PATH=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/bin/
+LIBRARY_PATH=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_1bd48.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_1bd48.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C executable cmTC_1bd48
+Using built-in specs.
+COLLECT_GCC=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-gcc
+COLLECT_LTO_WRAPPER=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/lto-wrapper
+Target: xtensa-esp32-elf
+Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_apple-darwin12 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-12.2.0_20230208' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) 
+COMPILER_PATH=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/bin/
+LIBRARY_PATH=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_1bd48' '-dumpdir' 'cmTC_1bd48.'
+ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/collect2 -plugin /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/liblto_plugin.so -plugin-opt=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/36/g0lqrq4974jbxjv90jfrmdt80000gn/T//cckblMJG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_1bd48 /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crti.o /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtbegin.o -L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0 -L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc -L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_1bd48.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtend.o /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_1bd48' '-dumpdir' 'cmTC_1bd48.'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/include]
+    add: [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/include-fixed]
+    add: [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/sys-include]
+    add: [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include]
+  end of search list found
+  collapse include dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/include] ==> [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/lib/gcc/xtensa-esp32-elf/12.2.0/include]
+  collapse include dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/include-fixed] ==> [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/lib/gcc/xtensa-esp32-elf/12.2.0/include-fixed]
+  collapse include dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/sys-include] ==> [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/sys-include]
+  collapse include dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include] ==> [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/include]
+  implicit include dirs: [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/lib/gcc/xtensa-esp32-elf/12.2.0/include;/Users/apple/.platformio/packages/toolchain-xtensa-esp32/lib/gcc/xtensa-esp32-elf/12.2.0/include-fixed;/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/sys-include;/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/apple/Desktop/esp32-play-mp3-demo/.pio/build/esp32dev/bootloader/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Users/apple/.platformio/packages/tool-ninja/ninja cmTC_1bd48 && [1/2] Building C object CMakeFiles/cmTC_1bd48.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-gcc]
+  ignore line: [Target: xtensa-esp32-elf]
+  ignore line: [Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_apple-darwin12 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-12.2.0_20230208' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_1bd48.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_1bd48.dir/']
+  ignore line: [ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/cc1 -quiet -v -iprefix /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/ /Users/apple/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1bd48.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -Wno-frame-address -version -o /var/folders/36/g0lqrq4974jbxjv90jfrmdt80000gn/T//ccAgvOAC.s]
+  ignore line: [GNU C17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (xtensa-esp32-elf)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/include"]
+  ignore line: [ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/sys-include"]
+  ignore line: [ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/include]
+  ignore line: [ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/include-fixed]
+  ignore line: [ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/sys-include]
+  ignore line: [ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (xtensa-esp32-elf)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 4dca3e277c35d48b1cfb1058cf67ac4a]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_1bd48.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_1bd48.dir/']
+  ignore line: [ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_1bd48.dir/CMakeCCompilerABI.c.obj /var/folders/36/g0lqrq4974jbxjv90jfrmdt80000gn/T//ccAgvOAC.s]
+  ignore line: [COMPILER_PATH=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/bin/]
+  ignore line: [LIBRARY_PATH=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_1bd48.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_1bd48.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C executable cmTC_1bd48]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/lto-wrapper]
+  ignore line: [Target: xtensa-esp32-elf]
+  ignore line: [Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_apple-darwin12 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-12.2.0_20230208' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) ]
+  ignore line: [COMPILER_PATH=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/bin/]
+  ignore line: [LIBRARY_PATH=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_1bd48' '-dumpdir' 'cmTC_1bd48.']
+  link line: [ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/collect2 -plugin /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/liblto_plugin.so -plugin-opt=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/36/g0lqrq4974jbxjv90jfrmdt80000gn/T//cckblMJG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_1bd48 /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crti.o /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtbegin.o -L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0 -L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc -L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_1bd48.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtend.o /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtn.o]
+    arg [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/36/g0lqrq4974jbxjv90jfrmdt80000gn/T//cckblMJG.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1bd48] ==> ignore
+    arg [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib/crt0.o] ==> ignore
+    arg [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crti.o] ==> ignore
+    arg [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtbegin.o] ==> ignore
+    arg [-L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0] ==> dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0]
+    arg [-L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc] ==> dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc]
+    arg [-L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib]
+    arg [CMakeFiles/cmTC_1bd48.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lnosys] ==> lib [nosys]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtend.o] ==> ignore
+    arg [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtn.o] ==> ignore
+  collapse library dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0] ==> [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/lib/gcc/xtensa-esp32-elf/12.2.0]
+  collapse library dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc] ==> [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/lib/gcc]
+  collapse library dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib] ==> [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/lib]
+  implicit libs: [gcc;c;nosys;c;gcc]
+  implicit dirs: [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/lib/gcc/xtensa-esp32-elf/12.2.0;/Users/apple/.platformio/packages/toolchain-xtensa-esp32/lib/gcc;/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/apple/Desktop/esp32-play-mp3-demo/.pio/build/esp32dev/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/apple/.platformio/packages/tool-ninja/ninja cmTC_8266c && [1/2] Building CXX object CMakeFiles/cmTC_8266c.dir/testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_8266c
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/apple/Desktop/esp32-play-mp3-demo/.pio/build/esp32dev/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/apple/.platformio/packages/tool-ninja/ninja cmTC_5ec7a && [1/2] Building CXX object CMakeFiles/cmTC_5ec7a.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+COLLECT_GCC=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-g++
+Target: xtensa-esp32-elf
+Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_apple-darwin12 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-12.2.0_20230208' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) 
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_5ec7a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5ec7a.dir/'
+ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/cc1plus -quiet -v -iprefix /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/ /Users/apple/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5ec7a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -Wno-frame-address -version -o /var/folders/36/g0lqrq4974jbxjv90jfrmdt80000gn/T//ccZMS8nX.s
+GNU C++17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (xtensa-esp32-elf)
+	compiled by GNU C version 8.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0"
+ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0/xtensa-esp32-elf"
+ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0/backward"
+ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/include"
+ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/include-fixed"
+ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/sys-include"
+ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0
+ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0/xtensa-esp32-elf
+ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0/backward
+ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/include
+ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/include-fixed
+ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/sys-include
+ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include
+End of search list.
+GNU C++17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (xtensa-esp32-elf)
+	compiled by GNU C version 8.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 757982dbd9eede33063a0d61c0ad14f9
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_5ec7a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5ec7a.dir/'
+ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_5ec7a.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/36/g0lqrq4974jbxjv90jfrmdt80000gn/T//ccZMS8nX.s
+COMPILER_PATH=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/bin/
+LIBRARY_PATH=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_5ec7a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5ec7a.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_5ec7a
+Using built-in specs.
+COLLECT_GCC=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-g++
+COLLECT_LTO_WRAPPER=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/lto-wrapper
+Target: xtensa-esp32-elf
+Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_apple-darwin12 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-12.2.0_20230208' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) 
+COMPILER_PATH=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/bin/
+LIBRARY_PATH=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_5ec7a' '-dumpdir' 'cmTC_5ec7a.'
+ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/collect2 -plugin /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/liblto_plugin.so -plugin-opt=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/36/g0lqrq4974jbxjv90jfrmdt80000gn/T//ccCTs2sN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_5ec7a /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crti.o /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtbegin.o -L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0 -L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc -L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_5ec7a.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtend.o /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_5ec7a' '-dumpdir' 'cmTC_5ec7a.'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0]
+    add: [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0/xtensa-esp32-elf]
+    add: [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0/backward]
+    add: [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/include]
+    add: [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/include-fixed]
+    add: [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/sys-include]
+    add: [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include]
+  end of search list found
+  collapse include dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0] ==> [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/include/c++/12.2.0]
+  collapse include dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0/xtensa-esp32-elf] ==> [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/include/c++/12.2.0/xtensa-esp32-elf]
+  collapse include dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0/backward] ==> [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/include/c++/12.2.0/backward]
+  collapse include dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/include] ==> [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/lib/gcc/xtensa-esp32-elf/12.2.0/include]
+  collapse include dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/include-fixed] ==> [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/lib/gcc/xtensa-esp32-elf/12.2.0/include-fixed]
+  collapse include dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/sys-include] ==> [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/sys-include]
+  collapse include dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include] ==> [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/include]
+  implicit include dirs: [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/include/c++/12.2.0;/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/include/c++/12.2.0/xtensa-esp32-elf;/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/include/c++/12.2.0/backward;/Users/apple/.platformio/packages/toolchain-xtensa-esp32/lib/gcc/xtensa-esp32-elf/12.2.0/include;/Users/apple/.platformio/packages/toolchain-xtensa-esp32/lib/gcc/xtensa-esp32-elf/12.2.0/include-fixed;/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/sys-include;/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/apple/Desktop/esp32-play-mp3-demo/.pio/build/esp32dev/bootloader/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Users/apple/.platformio/packages/tool-ninja/ninja cmTC_5ec7a && [1/2] Building CXX object CMakeFiles/cmTC_5ec7a.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-g++]
+  ignore line: [Target: xtensa-esp32-elf]
+  ignore line: [Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_apple-darwin12 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-12.2.0_20230208' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_5ec7a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5ec7a.dir/']
+  ignore line: [ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/cc1plus -quiet -v -iprefix /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/ /Users/apple/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5ec7a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -Wno-frame-address -version -o /var/folders/36/g0lqrq4974jbxjv90jfrmdt80000gn/T//ccZMS8nX.s]
+  ignore line: [GNU C++17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (xtensa-esp32-elf)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0"]
+  ignore line: [ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0/xtensa-esp32-elf"]
+  ignore line: [ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0/backward"]
+  ignore line: [ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/include"]
+  ignore line: [ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/sys-include"]
+  ignore line: [ignoring duplicate directory "/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0]
+  ignore line: [ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0/xtensa-esp32-elf]
+  ignore line: [ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include/c++/12.2.0/backward]
+  ignore line: [ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/include]
+  ignore line: [ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/include-fixed]
+  ignore line: [ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/sys-include]
+  ignore line: [ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (xtensa-esp32-elf)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 757982dbd9eede33063a0d61c0ad14f9]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_5ec7a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5ec7a.dir/']
+  ignore line: [ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_5ec7a.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/36/g0lqrq4974jbxjv90jfrmdt80000gn/T//ccZMS8nX.s]
+  ignore line: [COMPILER_PATH=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/bin/]
+  ignore line: [LIBRARY_PATH=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_5ec7a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5ec7a.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX executable cmTC_5ec7a]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/lto-wrapper]
+  ignore line: [Target: xtensa-esp32-elf]
+  ignore line: [Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_apple-darwin12 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-12.2.0_20230208' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) ]
+  ignore line: [COMPILER_PATH=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/bin/]
+  ignore line: [LIBRARY_PATH=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/:/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_5ec7a' '-dumpdir' 'cmTC_5ec7a.']
+  link line: [ /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/collect2 -plugin /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/liblto_plugin.so -plugin-opt=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/36/g0lqrq4974jbxjv90jfrmdt80000gn/T//ccCTs2sN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_5ec7a /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crti.o /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtbegin.o -L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0 -L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc -L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_5ec7a.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtend.o /Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtn.o]
+    arg [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../libexec/gcc/xtensa-esp32-elf/12.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/36/g0lqrq4974jbxjv90jfrmdt80000gn/T//ccCTs2sN.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5ec7a] ==> ignore
+    arg [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib/crt0.o] ==> ignore
+    arg [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crti.o] ==> ignore
+    arg [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtbegin.o] ==> ignore
+    arg [-L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0] ==> dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0]
+    arg [-L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc] ==> dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc]
+    arg [-L/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib]
+    arg [CMakeFiles/cmTC_5ec7a.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lnosys] ==> lib [nosys]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtend.o] ==> ignore
+    arg [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/crtn.o] ==> ignore
+  collapse library dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0] ==> [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/lib/gcc/xtensa-esp32-elf/12.2.0]
+  collapse library dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc] ==> [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/lib/gcc]
+  collapse library dir [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/../../../../xtensa-esp32-elf/lib] ==> [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/lib]
+  implicit libs: [stdc++;m;gcc;c;nosys;c;gcc]
+  implicit dirs: [/Users/apple/.platformio/packages/toolchain-xtensa-esp32/lib/gcc/xtensa-esp32-elf/12.2.0;/Users/apple/.platformio/packages/toolchain-xtensa-esp32/lib/gcc;/Users/apple/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/apple/Desktop/esp32-play-mp3-demo/.pio/build/esp32dev/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/apple/.platformio/packages/tool-ninja/ninja cmTC_33b29 && [1/2] Building C object CMakeFiles/cmTC_33b29.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_33b29
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/apple/Desktop/esp32-play-mp3-demo/.pio/build/esp32dev/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/apple/.platformio/packages/tool-ninja/ninja cmTC_076f1 && [1/2] Building C object CMakeFiles/cmTC_076f1.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_076f1
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/apple/Desktop/esp32-play-mp3-demo/.pio/build/esp32dev/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/apple/.platformio/packages/tool-ninja/ninja cmTC_56efb && [1/2] Building C object CMakeFiles/cmTC_56efb.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_56efb
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: /Users/apple/Desktop/esp32-play-mp3-demo/.pio/build/esp32dev/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/apple/.platformio/packages/tool-ninja/ninja cmTC_2602c && [1/2] Building C object CMakeFiles/cmTC_2602c.dir/TIME_T_SIZE.c.obj
+[2/2] Linking C executable cmTC_2602c
+
+
+
